@@ -13,12 +13,11 @@ def count_words():
     words_count = {}
     texts = texts.split()
     for text in texts:
-        if text in words_count:
+        if text in words_count: 
             words_count[text] += 1
         else:
             words_count[text] = 1
-    return words_count
-print(count_words())
-    # [assignment] Add your code here
 
-    return {"as": 10, "would": 20}
+    return words_count
+
+print(count_words())
