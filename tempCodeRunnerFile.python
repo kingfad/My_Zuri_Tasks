@@ -1,0 +1,8 @@
+numbers = [7, 5, 9, 7, 44, 5, 99, 23, 2, 1009, 23]
+sole = []
+for number in numbers:
+    if number not in sole:
+        sole.append(number)
+sole.sort()
+print(sole)
+
